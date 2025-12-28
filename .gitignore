@@ -1,0 +1,59 @@
+# ================================
+# Build Artifacts
+# ================================
+build/
+build-debug/
+build-release/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+CTestTestfile.cmake
+cmake_install.cmake
+Makefile
+main
+
+# Ninja
+.ninja_deps
+.ninja_log
+
+# ================================
+# Binaries / Objects
+# ================================
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+# Debug Symbols
+*.pdb
+*.dSYM/
+
+# ================================
+# SFML
+# (keep only headers + sources in repo)
+# ================================
+sfml-build/
+sfml-bin/
+sfml-lib/
+sfml-debug/
+sfml-release/
+
+# Local SFML installs / temp
+SFML-*
+libsfml-*
+csfml-*
+
+# ================================
+# VSCode
+# ================================
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.v
